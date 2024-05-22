@@ -7,7 +7,7 @@ namespace esp32cam {
 
 CameraClass Camera;
 
-Init
+void
 CameraClass::cameraInit() {
         camera_config_t config;
         config.ledc_channel = LEDC_CHANNEL_0;
