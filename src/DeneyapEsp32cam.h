@@ -17,7 +17,7 @@ public:
 	/**
 	* camera init
 	*/
-  Init cameraInit();
+  void cameraInit();
 	
 	/**
    * @brief Enable camera.
